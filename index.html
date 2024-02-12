@@ -8,10 +8,13 @@
   <link rel="icon" type="image/png" sizes="100%" href="https://pngtree.com/so/valentines-day">
   <style>
     body {
+      font-family: "Roboto", sans-serif;
       margin: 0;
       padding: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #e6e6fa; /* Lavender background for the entire body */
+      background: linear-gradient(to right, #FFA500, #FF6347);
+      color: #fff;
+      text-shadow: 0 0 20px #fff;
+      overflow-x: hidden;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -23,20 +26,19 @@
       max-width: 600px;
       padding: 30px;
       border-radius: 15px;
-      background-color: #d8a3a3; /* Dusty Rose background within the container */
-      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      background: linear-gradient(to right, #1e1e1e, #383838);
+      box-shadow: 0 0 20px #87CEEB;
     }
 
     h1 {
-      font-size: 36px;
-      color: #ffffff; /* White text for Dusty Rose background */
-      margin-bottom: 20px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      margin: 0;
+      font-size: 2em;
+      text-shadow: 0 0 30px #fff;
     }
 
     p {
       font-size: 20px;
-      color: #ffffff; /* White text for Dusty Rose background */
+      color: #fff;
       margin-bottom: 30px;
       font-family: 'Segoe Script', cursive;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
@@ -57,26 +59,22 @@
     }
 
     button {
-      padding: 12px 24px;
-      font-size: 18px;
-      border: 2px solid #333333; /* Charcoal Gray border */
-      border-radius: 25px;
+      padding: 0.7em 1em;
+      border-radius: 5px;
+      border: none;
+      background: linear-gradient(to right, #4E148C, #8E44AD);
+      box-shadow: 0 0 20px #8E44AD;
+      font-size: 1em;
+      color: #fff;
       cursor: pointer;
+      transition: background 0.3s, box-shadow 0.3s, transform 0.3s;
       margin: 10px;
-      transition: all 0.3s ease;
-      outline: none;
-      background-color: #ffc0cb; /* Blush Pink button background */
-      color: #333333; /* Charcoal Gray text */
     }
 
     button:hover {
-      background-color: #d2691e; /* Darker shade of Champagne on hover */
-      border-color: #d2691e; /* Darker shade of Burgundy border on hover */
-      transform: scale(1.1);
-    }
-
-    button:focus {
-      box-shadow: 0 0 0 3px #ffd700; /* Gold outline when focused */
+      background: linear-gradient(to right, #8E44AD, #4E148C);
+      box-shadow: 0 0 30px #8E44AD;
+      transform: scale(1.05);
     }
 
     .shake {
@@ -109,8 +107,8 @@
 
 <body>
   <div class="container">
-    <h1>Hey CICI!</h1>
-    <p>So I was thinking, if you and me... I mean, if you're free on this Valentine's, will you be my Valentine?</p>
+    <h1>Hey CICI</h1>
+    <p>So I was thinking, if you and me... I mean me and you, if you're free on this Valentine's, will you be my Valentine?</p>
     <div class="gif-container">
       <img src="https://media.giphy.com/media/12J28qxlb4sfFm/giphy.gif?cid=ecf05e47dynxbin2ps3409ewjsnft5993izqea8zthkag2l8&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Valentine's Day Image">
     </div>
